@@ -11,6 +11,7 @@ export default async() => {
             useCreateIndex: true
         })
     } catch (err) {
+        
         console.log(err);
         process.exit(1);
     }
